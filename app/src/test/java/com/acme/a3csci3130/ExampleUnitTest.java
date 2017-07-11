@@ -1,6 +1,10 @@
 package com.acme.a3csci3130;
 
+import android.widget.ListView;
+
 import org.junit.Test;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -11,7 +15,7 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() throws Exception {
+    public void createBusiness() throws Exception {
         assertEquals(4, 2 + 2);
     }
 }

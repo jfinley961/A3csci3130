@@ -20,8 +20,8 @@ public class CreateContactAcitivity extends Activity {
         appState = ((MyApplicationData) getApplicationContext());
 
         submitButton = (Button) findViewById(R.id.submitButton);
-        nameField = (EditText) findViewById(R.id.name);
-        emailField = (EditText) findViewById(R.id.email);
+        nameField = (EditText) findViewById(R.id.e_number);
+        emailField = (EditText) findViewById(R.id.e_business);
     }
 
     public void submitInfoButton(View v) {
